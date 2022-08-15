@@ -268,7 +268,7 @@ function newLi(title) {
   return newLi;
 }
 function newAudio(title) {
-  let audio = new Audio(`../assets/sounds/${title}.mp3`);
+  let audio = new Audio(`https://lunarangelina.github.io/momentum/assets/sounds/${title}.mp3`);
   return audio;
 }
 
